@@ -10,7 +10,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 from textblob import TextBlob
 from transformers import pipeline
 
-
+st.set_page_config(page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
 
 st.sidebar.title("Whattsapp Chat Analyzer")
 
